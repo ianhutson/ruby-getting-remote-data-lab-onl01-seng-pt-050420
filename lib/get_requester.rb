@@ -16,6 +16,6 @@ uri = URI.parse(@url)
 end
 
 def parse_json
-get_requester.parse_json
+JSON.parse
 end
 end
