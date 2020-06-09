@@ -11,7 +11,7 @@ end
 
 def get_response_body
 get_requester = GetRequester.new('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
-emd
+end
 get_requester.parse_json
 
 end
